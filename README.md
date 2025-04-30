@@ -38,11 +38,17 @@ Performed in `preprocessing.py`:
 - Included class weighting for imbalance
 - Accuracy: 80%
 - Recall for churners: 47%
+- output image:
+  ![Screenshot 2025-04-30 at 12 20 36 PM](https://github.com/user-attachments/assets/5e5d3d0a-d7d5-455f-a6b8-492d91dc1db3)
+
 
 ### 2. Logistic Regression (Basic)
 - Used class weighting
 - Accuracy: 75%
 - Recall for churners: 83%
+- -output image:
+  ![Screenshot 2025-04-30 at 12 20 48 PM](https://github.com/user-attachments/assets/aa7abb7b-7f7d-48c2-9ddd-2f56cc108e8d)
+
 
 ### 3. Logistic Regression with SMOTE and GridSearchCV (Final Model)
 - Applied SMOTE to balance training data
@@ -51,6 +57,9 @@ Performed in `preprocessing.py`:
 - Recall for churners: 83%
 - F1-score for churners: 65%
 - Best parameters: `C=0.1`, `penalty='l2'`, `solver='liblinear'`
+- output image:
+- ![Screenshot 2025-04-30 at 12 20 58 PM](https://github.com/user-attachments/assets/160c9074-f19e-427c-80b3-942c8b7d027f)
+
 
 ---
 
